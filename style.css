@@ -113,8 +113,10 @@ html{
     background: darkgray;
 }
 
-#srodek li{
-    text-decoration: none;
+
+
+#srodek ul{
+    list-style-type: none;
 }
 
 #srodek h4{

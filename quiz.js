@@ -153,7 +153,7 @@ function wyrzucenie() {
             }
 
         var napis = imie + ', Oto wynik twojego quizu:';
-        var napis2 =  ' Gratulacje! Najbardziej odpowiedni pies dla Ciebie to: ';
+        var napis2 =  ' Gratulacje!  Najbardziej odpowiedni pies dla Ciebie to: ';
         var napisText2 = document.createTextNode(napis2);
         var napisText = document.createTextNode(napis);
 
