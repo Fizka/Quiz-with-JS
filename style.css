@@ -1,0 +1,252 @@
+
+
+@charset "UTF-8";
+
+html{
+    background-image: url(assets/łapki.jpg);
+    padding: 30px;
+}
+
+#kontener{
+    background: dimgrey;
+    width: 100%;
+    margin: auto;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 16px;
+}
+
+
+#menuplaskie a {
+    text-decoration: none;
+    color: black;
+    background: dimgrey;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 4px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    box-shadow: -5px -5px 15px black;
+}
+
+
+#tlomenu{
+    background: dimgrey;
+    box-shadow: -5px -5px 15px black;
+    padding: 0px;
+    text-align: justify;
+}
+
+
+#menuplaskien{
+    margin-top: 5px;
+    text-align: justify;
+    background: darkgray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    float: bottom;
+}
+
+#menuplaskie ul{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#menuplaskie li{
+    display: inline-flex;
+    padding: 10px;
+    font-size: 150%;
+    width: 23%;
+}
+
+.tekst  {
+    text-align: left;
+    margin: 0px;
+    text-decoration: none;
+    color:black;
+    text-emphasis: black;
+    font-size: 40px;
+    font-family: Droid serif, cursive;
+    text-shadow: 1px 0 0 #fff;
+}
+
+#naglowek{
+    text-align: center;
+    background: dimgrey;
+    padding: 30px;
+    box-shadow: -5px -5px 15px black;
+}
+
+#naglowek h1{
+    font-size: 56px;
+    font-family: Droid serif, cursive;
+    text-shadow: 1px 0 0 #fff;
+}
+
+#dane{
+    background: #d4d9de;
+    padding: 20px;
+}
+
+#kontenerhori{
+    background: dimgrey;
+}
+
+#kontenervert{
+    background: darkgray;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#kontener2{
+    background: darkgray;
+    font-family: Droid serif, cursive;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+#srodek {
+    background: darkgray;
+}
+
+#srodek li{
+    text-decoration: none;
+}
+
+#srodek h4{
+    text-shadow: 1px 0 0 #fff;
+}
+
+#srodek h2{
+    text-shadow: 1px 0 0 #fff;
+    font-size: 24px;
+}
+
+#czyszczenie{
+display: none;
+}
+
+
+#menuplaskien a:hover{
+    color: darkgray;
+    background: dimgrey;
+}
+
+#tresc {
+    padding: 20px;
+    background: darkgray;
+    min-height: 100px;
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    box-shadow: -5px -5px 15px black;
+}
+
+a:hover { text-decoration: underline }
+
+#stopka{
+    clear: both;
+    background: dimgrey;
+    color: darkgray;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+@media only screen and  (max-width: 1250px) {
+
+
+    #menuplaskie li{
+        width: 100%;
+        padding: 0px;
+        font-size: 100%;
+    }
+
+    #menuplaskie ul{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 85%;
+    }
+
+    #menuplaskien{
+        margin-top: 40px;
+        text-align: justify;
+        background: #d4d9de;
+        margin-left: 5px;
+        float: bottom;
+    }
+
+}
+
+@media only screen and  (max-width: 600px){
+
+    html{
+        padding: 10px;
+    }
+
+    #tlomenu{
+        background: #a8afc9;
+        box-shadow: -5px -5px 15px dimgrey;
+        padding: 0px;
+        margin: 0;
+    }
+
+    #menuplaskien{
+        margin-top: 0px;
+        background: #d4d9de;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0;
+        vertical-align: center;
+    }
+
+    #menuplaskie li{
+        padding: 0;
+        margin: 0;
+        width: 105%;
+        list-style: none;
+        horiz-align: center;
+    }
+
+
+    #menuplaskie a {
+        display: block;
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+        width: 90%;
+        font-size: 120%;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #menuplaskie ul{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    #naglowek{
+        padding: 10px;
+        horiz-align: center;
+    }
+
+    #tresc{
+        padding-top: 10px;
+        margin-left: 0;
+    }
+
+    #kontener{
+        min-width: 320px;
+    }
+
+
+}
