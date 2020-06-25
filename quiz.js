@@ -116,8 +116,7 @@ function wyrzucenie() {
                 }
             }
         }
-
-        alert(rasa + punktyGracza);
+        
         wynik = rasa;
         for (i = 9; i < 15; i++) {
 
