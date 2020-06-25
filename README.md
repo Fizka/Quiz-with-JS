@@ -1,11 +1,23 @@
-# Quiz about dogs with JavaScript 
+# Website about dogs 
 
-## Main Frame
+##  Hamburger Menus
+
+![](naglowek.jpg)
+
+## Quiz
+
+Quiz about dogs with JavaScript 
 
 ![](quiz.jpg)
 
-## Result
-
 Out of 23 dogs breeds you can find the one for you.  
 
-![](wynik.jpg)
+![](result.jpg)
+
+## Gallery
+
+![](gallery.jpg)
+
+## Golden thoughts
+
+![](mysli.jpg)
